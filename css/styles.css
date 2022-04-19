@@ -5,7 +5,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', Tahoma, sans-serif;
+  font-family: "Roboto", Tahoma, sans-serif;
 }
 :root {
   --header-color: #ffffff;
@@ -177,7 +177,10 @@ img {
 /* ---------------------------------ГЛАВНЫЙ КОНТЕНТ----------------------------------- */
 
 .hero-section {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/hero/hero-background.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
