@@ -256,8 +256,9 @@ img {
   margin-right: 0;
 }
 .benefits-slide {
-  margin-bottom: 30px;
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -417,7 +418,10 @@ img {
 /* ---------------------------------НАШИ КЛИЕНТЫ----------------------------------- */
 
 .clients-section {
-  padding: 94px 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 0;
+  padding-right: 0;
   background-color: var(--header-color);
 }
 .clients-list {
@@ -435,8 +439,10 @@ img {
 }
 
 .clients-list-link {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -476,7 +482,11 @@ img {
 .portfolio-buttons-list .item:last-child {
   margin-right: 0;
 }
-.portfolio-section-list .item:hover {
+/* .portfolio-card-link:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+.portfolio-section-list .item:hover .portfolio-card-link {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
